@@ -1,0 +1,81 @@
+body {
+    background: url("http://longwallpapers.com/Desktop-Wallpaper/star-wars-wallpapers-high-quality-resolution-For-Desktop-Wallpaper.jpg");
+}
+
+.flex-containter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+header {
+    margin-bottom: 30px;
+
+}
+header h1 {
+    font-size: 50px;
+    color: #ffef00;
+}
+
+header lead {
+    font-size: 30px;
+    color: #ffef00;
+    margin-bottom: 15px;
+}
+
+.main {
+    margin: auto;
+    background-color: black;
+    width: 50%;
+    height: 500px;
+    border: 2px dashed #ffef00;
+    padding: 20px;
+
+    display: flex;
+}
+
+.flex-wrapper {
+    /* flex-direction: row;
+    align-items: stretch; */
+    flex: 1;
+}
+
+.main-left {
+    width: 50%;
+    border-right: 2px dashed #ffef00;
+    padding-right: 20px;
+}
+
+.main-right {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.main-right .top-wrapper p {
+    line-height: 32px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 23px;
+    color: #ffef00;
+    font-family: 'Righteous', cursive;
+}
+
+.top-wrapper {
+    height: 50%;
+    border-bottom: 2px dashed #ffef00;
+}
+
+.bottom-wrapper {
+    height: 50%;
+    margin-top: 30px;
+}
+
+.main-right .bottom-wrapper p {
+    line-height: 32px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 23px;
+    color: #ffef00;
+    font-family: 'Righteous', cursive;
+}

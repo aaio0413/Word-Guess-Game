@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HangMan</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <title>Word-Game</title>
 </head>
 <body>
+    <header class="flex-containter"> 
+        <h1 class="flex-containter"> Star Wars Hangman! </h1> <br>
+        <lead class="flex-containter" id="lead"> How much do you know about star wars?</lead>
+
+    </header>
+
+    <section class="main">
+      
+        <div class="main-left flex-wrapper">
+            <img id="charImage">
+        </div>
+
+        <div class="main-right flex-wrapper">
+            <div class="top-wrapper">
+                <p>Guess which character from Star Wars is this! Press any key to start.</p>
+                <p>If you can't guess the right one within predefined time, you lose.</p>
+                <br>
+                <p> Current Word : </p>
+                <p id="letters"> </p>
+            </div>
+
+            <div class="bottom-wrapper">
+
+                <p> Wins: <span id="wins"></span></p>
+                <p> Loses: <span id="loses"></span></p>
+                <p> Number of Guesses Left: <span id="guessNum"></span></p>
+                <p> Guesses you made so far: <p id="guesses"></p></p>
+
+
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+
+    </footer>
     
+
 </body>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </html>

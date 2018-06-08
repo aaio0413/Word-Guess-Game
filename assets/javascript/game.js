@@ -27,19 +27,19 @@ character[15] = "Princess Amidala";
 var characterImg = new Array(15);
 
 characterImg[0] = new Image();
-characterImg[0].src = "https://fthmb.tqn.com/lJ_4z1obcg3ogDOR-hcElg7Q-wI=/1500x1143/filters:no_upscale():fill(FFCC00,1)/jake-lloyd-56a8f97b5f9b58b7d0f6df96.jpg";
+characterImg[0].src = "assets/images/Anakin-Skywalker-1.png";
 
 characterImg[1] = new Image();
-characterImg[1].src = "file:///Users/kawaguchitakahiro/development/Word-Guess-Game/assets/images/C3PO.jpg";
+characterImg[1].src = "assets/images/C3PO.jpg";
 
 characterImg[2] = new Image();
-characterImg[2].src = "file:///Users/kawaguchitakahiro/development/Word-Guess-Game/assets/images/Chewbacca_TLJ.png";
+characterImg[2].src = "assets/images/Chewbacca_TLJ.png";
 
 characterImg[3] = new Image();
-characterImg[3].src = "file:///Users/kawaguchitakahiro/development/Word-Guess-Game/assets/images/Darth%20Vader.jpg";
+characterImg[3].src = "assets/images/Darth%20Vader.jpg";
 
 characterImg[4] = new Image();
-characterImg[4].src = "file:///Users/kawaguchitakahiro/development/Word-Guess-Game/assets/images/Darth-Maul-1024x717.jpg";
+characterImg[4].src = "assets/images/Darth-Maul-1024x717.jpg";
 
 characterImg[5] = new Image();
 characterImg[5].src = "assets/images/Han_solo.jpg";

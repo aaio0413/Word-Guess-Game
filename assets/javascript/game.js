@@ -42,37 +42,37 @@ characterImg[4] = new Image();
 characterImg[4].src = "file:///Users/kawaguchitakahiro/development/Word-Guess-Game/assets/images/Darth-Maul-1024x717.jpg";
 
 characterImg[5] = new Image();
-characterImg[5].src = "../assets/images/Han_solo.jpg";
+characterImg[5].src = "assets/images/Han_solo.jpg";
 
 characterImg[6] = new Image();
-characterImg[6].src = "../assets/images/jabbaza hut.jpg";
+characterImg[6].src = "assets/images/jabbaza hut.jpg";
 
 characterImg[7] = new Image();
-characterImg[7].src = "../assets/images/jar.jpeg";
+characterImg[7].src = "assets/images/jar.jpeg";
 
 characterImg[8] = new Image();
-characterImg[8].src = "../assets/images/luke-skywalker-2-shot.jpg";
+characterImg[8].src = "assets/images/luke-skywalker-2-shot.jpg";
 
 characterImg[9] = new Image();
-characterImg[9].src = "../assets/images/Obi-Wan-Kenobi.jpg";
+characterImg[9].src = "assets/images/Obi-Wan-Kenobi.jpg";
 
 characterImg[10] = new Image();
-characterImg[10].src = "../assets/images/princessleia.jpg";
+characterImg[10].src = "assets/images/princessleia.png";
 
 characterImg[11] = new Image();
-characterImg[11].src = "../assets/images/r2-d2.png";
+characterImg[11].src = "assets/images/r2-d2.jpg";
 
 characterImg[12] = new Image();
-characterImg[12].src = "../assets/images/Sheeve Palpatine.jpg";
+characterImg[12].src = "assets/images/Sheeve Palpatine.jpg";
 
 characterImg[13] = new Image();
-characterImg[13].src = "../assets/images/Yoda.jpg";
+characterImg[13].src = "assets/images/Yoda.jpg";
 
 characterImg[14] = new Image();
-characterImg[14].src = "../assets/images/Ray.jpg";
+characterImg[14].src = "assets/images/Ray.jpg";
 
 characterImg[15] = new Image();
-characterImg[15].src = "../assets/images/Princess Amidala.jpg";
+characterImg[15].src = "assets/images/Princess Amidala.jpg";
 
 
 
@@ -175,7 +175,7 @@ var reset = function() {
 
 var printImg = function() {
     var charImgHTML = document.getElementById('charImage');
-    charImgHTML.innerHTML = characterImg[imgIndex];
+    charImgHTML.src = characterImg[imgIndex].src;
 }
 
 updateGuesses();

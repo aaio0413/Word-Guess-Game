@@ -9,6 +9,11 @@ body {
     flex-flow: column;
 }
 
+.img {
+    height: 100%;
+    width: 100%;
+}
+
 header {
     margin-bottom: 30px;
 
